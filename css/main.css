@@ -10,6 +10,14 @@
 (8px/4px) = 2
 $value:6px, $value / 2px = 3,
 */
+/*
+#333 + #777 = #aaaaaa;
+#090807 - #030201 = #860606
+#12345 * 2 = #2468ac
+#222 * #040404 = #888888
+#888 / #080402 = #112244
+
+*/
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 @import url(https://fonts.googleapis.com/css?family=Titlium+Web);
 a {
