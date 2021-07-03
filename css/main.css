@@ -1,3 +1,15 @@
+/*
+3px + 4px = 7px
+6px - 2px = 4px
+--$size: 3px * 4px = 12px*px
+-- $size / 6px = 2px
+1inch - 6px = 0.9375in
+
+2em - 8px = syntaxError , incompetable units 'px' and 'em'
+
+(8px/4px) = 2
+$value:6px, $value / 2px = 3,
+*/
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 @import url(https://fonts.googleapis.com/css?family=Titlium+Web);
 a {
