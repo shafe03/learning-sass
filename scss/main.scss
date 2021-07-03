@@ -7,6 +7,9 @@
 // @import "filename.css";
 // @import "style-screen" screen;
 
+@include google-font("Alegreya+Sans");
+@include google-font("Titlium+Web");
+
 @include fancy-links;
 
 body {
