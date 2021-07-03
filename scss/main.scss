@@ -15,8 +15,7 @@
 body {
   font-family: sans-serif;
   color: $text-color;
-
-  @media only screen and (max-width: 960px) {
+  @include large-screens {
     font-size: 125%;
   }
 }
@@ -75,14 +74,12 @@ a {
 
 #main {
   width: $content-width;
+  @include large-screens {
+    width: auto;
+    max-width: $content-width;
+  }
   margin-left: auto;
   margin-right: auto;
-  @media only screen and (max-width: 960px) {
-    #main {
-      width: auto;
-      max-width: $content-width;
-    }
-  }
 
   #content {
   }
