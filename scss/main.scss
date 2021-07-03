@@ -1,5 +1,11 @@
-@import "variables";
-@import "mixin";
+@import "partials/variables";
+@import "partials/mixin";
+// @import "partials/variables", @import "partials/mixin";
+
+// @import url();
+// @import "http://";
+// @import "filename.css";
+// @import "style-screen" screen;
 
 @include fancy-links;
 
